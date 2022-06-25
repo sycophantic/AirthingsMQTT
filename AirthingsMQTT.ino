@@ -93,8 +93,12 @@ static BLEUUID temperatureUUID((uint32_t)0x2A6E);
 static BLEUUID humidityUUID((uint32_t)0x2A6F);
 
 // waveplus
-static BLEUUID wavePlusServiceUUID("b42e1c08-ade7-11e4-89d3-123b93f75cba");
-static BLEUUID characteristicUUID("b42e2a68-ade7-11e4-89d3-123b93f75cba");
+//static BLEUUID wavePlusServiceUUID("b42e1c08-ade7-11e4-89d3-123b93f75cba");
+//static BLEUUID characteristicUUID("b42e2a68-ade7-11e4-89d3-123b93f75cba");
+
+// 2nd gen wave (uses wave plus protocol)
+static BLEUUID wavePlusServiceUUID("b42e4a8e-ade7-11e4-89d3-123b93f75cba");
+static BLEUUID characteristicUUID("b42e4dcc-ade7-11e4-89d3-123b93f75cba");
 
 typedef enum
 {
